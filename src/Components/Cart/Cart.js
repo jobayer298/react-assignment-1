@@ -1,7 +1,5 @@
 import React from 'react';
 import './Cart.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 const Cart = (props) => {
     const cart = props.cart
     let totalPrice = 0
@@ -31,19 +29,6 @@ const Cart = (props) => {
                 <small><b>{(totalPrice+ShipppingPrice).toFixed(2)}</b></small>
             </div>
             </div>
-            {/* <div className="subtotal">
-                <small>Sub Total</small>
-                <small>{totalPrice.toFixed(2)}</small>
-            </div>
-            <div className="shipping">
-                <small>Shipping Cost</small>
-                <small>{ShipppingPrice.toFixed(2)}</small>
-                
-            </div>
-            <div className="total">
-                <small>Total</small>
-                <small>{(totalPrice+ShipppingPrice).toFixed(2)}</small>
-            </div> */}
             <div className="cartBtn">
                 <button>Proceed To Payment</button>
             </div>
