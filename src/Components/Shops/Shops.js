@@ -9,7 +9,7 @@ const Shops = () => {
     const[products,setProducts] = useState(firstTen)
     const[cart,setCart] = useState([])
     const cartEvent = (product) => {
-        const cartItem = [...cart ,product]
+        const cartItem = [...cart ,product] 
         setCart(cartItem)
     }
     return (

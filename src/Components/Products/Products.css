@@ -24,9 +24,19 @@
     outline: none;
     padding: 9px 22px;
     background-color: #fcd588;
-    color: #444;
+    color: rgb(0, 0, 0);
     margin-bottom: 40px;
     font-weight: bold;
     border-radius: 7px;
     cursor: pointer;
+    
+}
+.product-info .cartIcon{
+    color: black;
+    margin-right: 8px;
+}
+.star{
+    margin-bottom: 30px;
+    color: #F29A2E;
+    font-size: 20px;
 }
